@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #000;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-top: 1em;
+}
+
+section {
+	margin: 0 auto;
+	padding: 5em;
+	background-color: #333;
+	width: 600px;
+	
+	border: solid 5px #FFF;
+	border-radius: 30px;
+
+}
+
+form {
+	text-align: center;
+	border: solid 2px #000;
+	border-radius: 20px;
+	padding: 1em;
+	
+	-webkit-box-shadow: 0px 0px 7px 2px #FFF;
+	-moz-box-shadow: 0px 0px 7px 2px #FFF;
+	box-shadow: 0px 0px 7px 2px #FFF; 
+	
+	color: #FFF;
+}
+
+#ball {
+	height: 200px;
+	width: 300px;
+	
+	font-weight: bolder;
+	font-size: 40px;
+	
+	text-align: center;
+	
+	margin: 2em auto;
+	margin-bottom: 0;
+	padding: 0;
+	
+	padding-top: 100px;
+	
+	border-style:solid;
+	border-width:10px;
+	border-radius: 160px;
+	
+	border-color:#FFF		/* these are to be edited with js	*/
+	
+	background-color: #000;
+	
+	color: #FFF;
+
+
+}
+
+p {
+	padding: 0;
+	margin: 0;
+	margin-top: .5em;
+	
+}
